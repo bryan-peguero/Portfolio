@@ -8,6 +8,15 @@ body {
   padding: 8rem 0;
 }
 
+.portfolio-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 100px auto;
+  height: 520px;
+  -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 20px rgba(0, 0, 0, 0.19);
+          box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 20px rgba(0, 0, 0, 0.19);
+}
+
 .small-text {
   color: #5b5b5b;
   font-size: 14px;
@@ -127,18 +136,18 @@ b, strong {
   top: 0;
   right: 0;
   left: 0;
-  -webkit-animation: BottomTotop 6s linear infinite 0s;
-          animation: BottomTotop 6s linear infinite 0s;
+  -webkit-animation: BottomTotop 5s linear infinite 0s;
+          animation: BottomTotop 5s linear infinite 0s;
 }
 
 .animated-item:nth-child(2n+2) {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 .animated-item:nth-child(3n+3) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
 @-webkit-keyframes BottomTotop {

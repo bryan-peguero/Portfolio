@@ -37,6 +37,14 @@ body {
 	padding: 8rem 0;
 }
 
+.portfolio-img {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin: 100px auto;
+	height: 520px;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 20px rgba(0, 0, 0, 0.19);
+  }
+  
 .small-text {
     color: $body-font-color;
     font-size: $small-font-size;
@@ -157,12 +165,12 @@ b, strong {
     top: 0;
     right: 0;
     left: 0;
-    animation: BottomTotop 6s linear infinite 0s;
+    animation: BottomTotop 5s linear infinite 0s;
     &:nth-child(2n+2) {
-        animation-delay: 2s;
+        animation-delay: 2.5s;
     }
     &:nth-child(3n+3) {
-        animation-delay: 4s;
+        animation-delay: 2.5s;
     }
 }
 
