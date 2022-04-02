@@ -43,8 +43,9 @@ body {
 	margin: 100px auto;
 	height: 520px;
 	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 20px rgba(0, 0, 0, 0.19);
-  }
-  
+	width: 85% !important; 
+}
+
 .small-text {
     color: $body-font-color;
     font-size: $small-font-size;
@@ -550,7 +551,6 @@ b, strong {
 
 // RESPONSIVE STYLES
 
-// TODO: CREAR MEDIA QUERIES PARA EL TAMAÑO DE LAS IMAGENES EN DIFERENTES DISPOSITIVOS 
 @media (min-width: 1270px) {
 	.owl-theme {
 		.owl-dots {
@@ -582,6 +582,11 @@ b, strong {
 	.contact-info {
 		padding: 0 2rem;
 	}
+
+	.portfolio-img {
+		width: 85% !important;
+		height: 450px;
+	}
 }
 
 
@@ -608,6 +613,11 @@ b, strong {
 	.navbar-expand-sm .navbar-nav .nav-link {
 		padding: 3px 20px;
 	}
+
+	.portfolio-img {
+		width: 70% !important;
+		height: 350px;
+	}
 }
 
 
@@ -633,6 +643,10 @@ b, strong {
 	.timeline-info small {
 		display: block;
 		margin: 10px 0 0 0;
+	}
+	.portfolio-img {
+		width: 85% !important;
+		height: 350px;
 	}
 }
 
@@ -665,4 +679,5 @@ b, strong {
 			vertical-align: top;
 		}
 	}
+	
 }
